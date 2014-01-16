@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>eVita - Rapidez e Segurança nas prescrições médicas.</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">
+  </head>
+
+  <body>
+    <header id="pill-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <img class="logo" src="images/logo.png" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="item android"></div>
+            <h3>Android</h3>
+            <p>Em breve eVita estará disponível na Play Store.</p>
+            <!--<p class="btn btn-info">Em breve!</p>-->
+          </div>
+          <div class="col-sm-4">
+            <div class="item iphone"></div>
+            <h3>iPhone &middot; iPad</h3>
+            <p>O eVita está disponível na AppStore por apenas US$2.99!</p>
+            <a href="https://itunes.apple.com/br/app/evita/id640180667?mt=8" target="_blank"><p class="btn btn-info">Baixe Já!</p></a>
+          </div>
+          <div class="col-sm-4">
+            <div class="item web"></div>
+            <h3>Web</h3>
+            <p>Em breve também teremos uma versão Web, para você acessar em qualquer lugar!</p>
+            <!--<p class="btn btn-info">Em breve!</p>-->
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="item interaction"></div>
+            <h3>Interações Medicamentosas</h3>
+            <p>Verifique interações entre mais de 4.500 medicamentos disponíveis no Brasil.</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="item contra"></div>
+            <h3>Contraindicações</h3>
+            <p>Verifique contraindicações entre medicamentos e o quadro clínico de seus pacientes, entre cerca de 300 casos disponíveis.</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="item update"></div>
+            <h3>Atualizações Gratuitas</h3>
+            <p>O eVita disponibiliza atualizações gratuitas com novos registros de interações medicamentosas e inclusão de quadros clínicos.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="item search"></div>
+            <h3>Busca Precisa</h3>
+            <p>Pesquise por medicamentos tanto pelo <strong>nome comercial brasileiro</strong> quanto pelas drogas que o compoem.</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="item brazil"></div>
+            <h3>Medicamentos Brasileiros</h3>
+            <p>Sem criatividade pra escrever um texto que não repita o título.</p>
+          </div>
+          <div class="col-sm-4">
+            <div class="item database"></div>
+            <h3>Dados Qualificados</h3>
+            <p>As interações datadas no eVita são provenientes de fontes abertas de informação médica<!-- e estruturados através de processo validado por farmacêuticos-->.</br><a href="#">Saiba Mais</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="more">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="#"><p class="btn btn-default">Perguntas Frequentes</p></a>
+            <a href="#"><p class="btn btn-default">Contato</p></a>
+            <a href="#" target="_blank"><p class="btn btn-default social-icon"><img class="logo" src="images/linkedin.png" /></p></a>
+            <a href="https://www.facebook.com/evitamed" target="_blank"><p class="btn btn-default social-icon"><img class="logo" src="images/facebook.png" /></p></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cloud">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <img class="logo" src="images/cloud.png" />
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="item hospital"></div>
+            Integre o eVita em seu sistema de prescrição médica, ecossistema hospitalar, etc.
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="item service"></div>
+            Integre o eVita em seu sistema de prescrição médica, ecossistema hospitalar, etc.
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="item api"></div>
+            Integre o eVita em seu sistema de prescrição médica, ecossistema hospitalar, etc.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="copy">&copy;2013-2014 &middot; Todos os direitos reservados &middot; eVita é um produto desenvolvido pela <a href="http://www.procuratecnologia.com" target="_blank">Procura Tecnologia</a>.</div>
+          </div>
+          <div class="col-sm-3">
+            <div class="powered"><a href="http://www.procuratecnologia.com" target="_blank"><img src="images/logo_procura.png" /></a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      $('#pill-header').mousemove(function(e){
+        var amountMovedX = (e.pageX * -1 / 6);
+        $(this).css('background-position', amountMovedX + 'px ' + 0 + 'px');
+      });
+    </script>
+  </body>
+</html>
