@@ -114,45 +114,6 @@ section {
 
 .social-icon {
 	padding: 0px !important;
-	float: right;
-	margin-left: 10px;
-}
-
-#cloud {
-	background: #EEE;
-}
-
-#cloud .logo {
-	height: 100px;
-	margin-right: 10px;
-	float: left;
-}
-
-#cloud .item {
-	border-radius: 10px;
-	width: 100px;
-	height: 100px;
-	float: left;
-	margin-right: 10px;
-}
-
-#cloud .item:hover {
-	background-size: 90px 90px;
-}
-
-#cloud .hospital {
-	background: #FFF url(../images/hospital.png) center no-repeat;
-	background-size: 80px 80px;
-}
-
-#cloud .service {
-	background: #FFF url(../images/service.png) center no-repeat;
-	background-size: 80px 80px;
-}
-
-#cloud .api {
-	background: #FFF url(../images/api.png) center no-repeat;
-	background-size: 80px 80px;
 }
 
 .col-sm-4 {
